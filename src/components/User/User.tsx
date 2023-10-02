@@ -1,10 +1,17 @@
 import styles from './User.module.css'
 
-const User = (name: string, maker: string) => {
+interface UserProps {
+    name: string;
+    maker: string;
+}
+
+const User: React.FC<UserProps> = ({name, maker}) => {
     return (
         <div>
-            <h1>{name}</h1>
-            <h1>{maker}</h1>
+            <h1>Name</h1>
+            <p>{name}</p>
+            <h1>Maker</h1>
+            <p>{maker}</p>
         </div>
     )
 }
