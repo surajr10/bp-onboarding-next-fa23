@@ -1,0 +1,14 @@
+[
+    {
+       "Name":"Pulp Fiction",
+       "Maker": "Quentin Tarantino"
+    },
+    {
+       "Name":"Oppenheimer",
+      "Maker": "Christopher Nolan"
+    },
+    {
+       "Name":"Barbie",
+      "Maker": "Greta Gerwig"
+    }
+]
